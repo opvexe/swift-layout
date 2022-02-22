@@ -11,7 +11,7 @@ import SwiftUI
 struct circleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStackContentView()
         }
     }
 }
