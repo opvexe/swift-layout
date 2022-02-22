@@ -17,6 +17,8 @@
 		5CD8E5F727C5238E00FB21E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8E5CD27C5238E00FB21E8 /* ContentView.swift */; };
 		5CD8E5F827C5238E00FB21E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8E5CE27C5238E00FB21E8 /* Assets.xcassets */; };
 		5CD8E5F927C5238E00FB21E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8E5CE27C5238E00FB21E8 /* Assets.xcassets */; };
+		5CD8E60927C5341000FB21E8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8E60827C5341000FB21E8 /* ColorView.swift */; };
+		5CD8E60A27C5341000FB21E8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8E60827C5341000FB21E8 /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		5CD8E5EC27C5238E00FB21E8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD8E5F027C5238E00FB21E8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5CD8E5F227C5238E00FB21E8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5CD8E60827C5341000FB21E8 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				5CD8E5CC27C5238E00FB21E8 /* circleApp.swift */,
 				5CD8E5CD27C5238E00FB21E8 /* ContentView.swift */,
+				5CD8E60827C5341000FB21E8 /* ColorView.swift */,
 				5CD8E5CE27C5238E00FB21E8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD8E60927C5341000FB21E8 /* ColorView.swift in Sources */,
 				5CD8E5F627C5238E00FB21E8 /* ContentView.swift in Sources */,
 				5CD8E5F427C5238E00FB21E8 /* circleApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD8E60A27C5341000FB21E8 /* ColorView.swift in Sources */,
 				5CD8E5F727C5238E00FB21E8 /* ContentView.swift in Sources */,
 				5CD8E5F527C5238E00FB21E8 /* circleApp.swift in Sources */,
 			);

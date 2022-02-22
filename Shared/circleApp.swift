@@ -11,7 +11,8 @@ import SwiftUI
 struct circleApp: App {
     var body: some Scene {
         WindowGroup {
-            ZStackContentView()
+            // Copy from https://oldbird.run/swiftui/#/List
+            ColorView()
         }
     }
 }
