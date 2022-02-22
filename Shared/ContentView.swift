@@ -114,16 +114,52 @@ struct HStackContentView: View {
 /*
     Section 视图布局,区分ZStack布局
     叠加状态
+    子元素会在水平垂直方向居中对齐
  */
 struct ZStackContentView: View {
     var body: some View {
         Section {
             Text("ZStack")
         } header: {
-            ZStack(alignment: .trailing) {
-                
+            VStack {
+                ZStackItem(alignment: .top)
+                Spacer()
+                ZStackItem(alignment: .leading)
+                Spacer()
+                ZStackItem(alignment: .topLeading)
+                Spacer()
+                ZStackItem(alignment: .center)
+                Spacer()
+                ZStackItem(alignment: .bottom)
+                Spacer()
+//                ZStackItem(alignment: .trailing)
+//                Spacer()
+//                ZStackItem(alignment: .bottomLeading)
+//                Spacer()
+//                ZStackItem(alignment: .bottomTrailing)
             }
+            
         }
+    }
+}
+
+struct ZStackItem: View {
+    let alignment: Alignment
+    var body: some View {
+        ZStack(alignment: alignment) {
+            Text("A")
+                .frame(width:100,height: 100)
+                .background(Color.red)
+            
+            Text("B")
+                .frame(width:50,height: 50)
+                .background(Color.green)
+            
+            Text("C")
+                .frame(width:30,height: 30)
+                .background(Color.yellow)
+        }
+        .background(Color.orange)
     }
 }
 
