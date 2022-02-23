@@ -12,7 +12,7 @@ struct circleApp: App {
     var body: some Scene {
         WindowGroup {
             // Copy from https://oldbird.run/swiftui/#/List
-            ColorView()
+            FormContentView()
         }
     }
 }
